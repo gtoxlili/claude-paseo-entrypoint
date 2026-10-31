@@ -5,7 +5,7 @@ export default function contribute(server: PluginServerContext) {
     if (request.provider !== "claude") return;
     return {
       ...request,
-      env: { ...request.env, CLAUDE_CODE_ENTRYPOINT: "Paseo" },
+      env: { ...request.env, CLAUDE_CODE_ENTRYPOINT: "claude-paseo" },
     };
   });
 }

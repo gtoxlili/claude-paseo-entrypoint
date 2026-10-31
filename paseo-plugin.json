@@ -1,7 +1,7 @@
 {
-  "id": "claude-code-entrypoint-env",
-  "name": "Claude Code entrypoint environment",
-  "description": "Adds CLAUDE_CODE_ENTRYPOINT=Paseo to Claude agents as an optional community workaround.",
+  "id": "claude-paseo-entrypoint",
+  "name": "Claude Code entrypoint: claude-paseo",
+  "description": "Adds CLAUDE_CODE_ENTRYPOINT=claude-paseo to Claude agents, named like claude-vscode and claude-desktop.",
   "requirements": {
     "paseo": ">=0.8.0-beta.1"
   }

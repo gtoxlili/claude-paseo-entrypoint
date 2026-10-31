@@ -31,7 +31,7 @@ test("labels every Claude opening, preserves other fields and unregisters on cle
     };
     assert.deepEqual(handler({ request }), {
       ...request,
-      env: { UNRELATED: "keep", CLAUDE_CODE_ENTRYPOINT: "Paseo" },
+      env: { UNRELATED: "keep", CLAUDE_CODE_ENTRYPOINT: "claude-paseo" },
     });
     assert.equal(request.env.CLAUDE_CODE_ENTRYPOINT, "sdk-cli");
     assert.equal(handler({ request: { ...request, provider: "codex" } }), undefined);

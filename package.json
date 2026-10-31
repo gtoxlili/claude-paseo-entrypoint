@@ -1,5 +1,5 @@
 {
-  "name": "claude-code-entrypoint-env",
+  "name": "claude-paseo-entrypoint",
   "version": "1.0.1",
   "private": true,
   "description": "Optional Claude Code entrypoint environment plugin for Paseo.",
